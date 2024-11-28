@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
 export function Hero() {
@@ -25,9 +24,11 @@ export function Hero() {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80"
-              alt="Team working"
-              className="rounded-lg shadow-xl"
+            src="https://blog.hubdodesenvolvedor.com.br/wp-content/uploads/2024/03/capa-linguagens-em-alta.jpg" 
+            width={600} 
+            alt="Team working"
+            className="rounded-lg shadow-xl"
+            style={{ marginLeft: 'auto', marginRight: '0', display: 'block' }}
             />
           </div>
         </div>
