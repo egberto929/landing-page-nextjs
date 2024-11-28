@@ -1,4 +1,3 @@
-import React from 'react';
 import { ChevronDown, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 export function Footer() {
